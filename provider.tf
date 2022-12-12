@@ -3,5 +3,9 @@ provider "aws" {
 }
 
 terraform {
-  backend "s3" {}
+  backend "s3" {
+    bucket = "b51-tf-remote-state-bucket-afs"
+    key    = "vpc/dev/terraform.tfstate"
+    region = "us-east-1"    
+  }
 }
