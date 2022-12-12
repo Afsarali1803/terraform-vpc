@@ -5,7 +5,7 @@ pipeline{
         choice(name: 'ACTION', choices: ['apply', 'destroy'], description: 'Select Apply or Destroy')
     }
     options {
-        ansiColor('xterm')    // Add's color to the output : Ensure you install AnsiColor Plugin.
+        ansiColor('xterm')    
     }
     stages{
         stage("Terraform Init"){
