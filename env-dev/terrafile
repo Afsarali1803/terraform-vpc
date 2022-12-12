@@ -1,0 +1,7 @@
+vpc:
+    source:  "https://github.com/Afsarali1803/tfmodulevpc.git"
+    version: "main"  # This can be the branch name like your `dev``
+
+
+
+    
