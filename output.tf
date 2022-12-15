@@ -1,10 +1,10 @@
-output "VPC_ID" {
-     value = module.vpc.VPC_ID
-}
-
-# output "VPC_CIDR" {
-#     value =  module.vpc.VPC_CIDR
+# output "VPC_ID" {
+#      value = module.vpc.VPC_ID
 # }
+
+output "VPC_CIDR" {
+    value =  module.vpc.VPC_CIDR
+}
 
 # output "PRIVATE_SUBNET_ID" {
 #     value = module.vpc.PRIVATE_SUBNET_ID
